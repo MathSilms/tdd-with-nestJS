@@ -1,9 +1,10 @@
 import { Module } from '@nestjs/common';
-import { TasksModule } from './tasks/tasks.module';
+import { ExchengeModule } from './exchenge/exchenge.module';
+
 
 
 @Module({
-  imports: [TasksModule],
+  imports: [ExchengeModule],
   controllers: [],
   providers: [],
 })
